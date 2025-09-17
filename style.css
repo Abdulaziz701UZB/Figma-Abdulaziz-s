@@ -1,0 +1,300 @@
+/* Abdulaziz's Figma Abdulazizning figamsi */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #202336;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 100px;
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-links img {
+  width: 35px;
+  height: 35px;
+}
+
+.nav-links p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #202336;
+  cursor: pointer;
+}
+
+.nav-links p:hover {
+  color: #FB8F1D;
+}
+
+.nav-button {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-button button {
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid #FB8F1D;
+}
+
+.nav-button button:first-child {
+  background-color: #fff;
+  color: #FB8F1D;
+}
+
+.nav-button button:last-child {
+  background-color: #FB8F1D;
+  color: #fff;
+}
+
+.all {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  position: relative;
+}
+
+.all h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.all h2 {
+  font-size: 20px;
+  color: #202336;
+  margin-bottom: 20px;
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.select1,
+/* , dan so'ng ikkita class berganman teacher shuni ikkalasi ham degani */
+.select2 {
+  display: flex;
+  gap: 20px;
+}
+
+.select select {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-width: 150px;
+  font-size: 14px;
+  color: #202336;
+}
+
+.all-button {
+  margin-top: 25px;
+}
+
+.all-button button {
+  background-color: #FB8F1D;
+  color: white;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.firest-img {
+  max-width: 600px;
+}
+
+.firest-img img {
+  width: 100%;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px;
+  gap: 50px;
+}
+
+.section1 .img-big img {
+  max-width: 500px;
+  width: 100%;
+}
+
+.section1 .text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.section1 .text p {
+  font-size: 16px;
+  color: #5E6282;
+}
+
+.button777 button {
+  margin-top: 30px;
+  padding: 10px 25px;
+  background-color: #FB8F1D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.section2 {
+  padding: 60px 100px;
+}
+
+.section2 .text2 h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.imgaaaaaaaaaas {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.imgaaaaaaaaaas img {
+  width: 220px;
+  border-radius: 10px;
+}
+
+.section3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 100px;
+}
+
+.section3 .text3 h1,
+/* , dan so'ng ikkita class berganman teacher shuni ikkalasi ham degani */
+.section3 .text h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.section3 p {
+  font-size: 16px;
+  color: #5E6282;
+}
+
+.button3000 button {
+  margin-top: 25px;
+  padding: 10px 25px;
+  background-color: #FB8F1D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.img-big2 img {
+  width: 450px;
+}
+
+.section3 .text h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.section3 .text p {
+  font-style: italic;
+}
+
+.section3 .text h3 {
+  margin-top: 15px;
+}
+
+.section3 .text h4 {
+  color: #5E6282;
+  font-size: 14px;
+}
+
+.img-kal img {
+  width: 300px;
+}
+
+.section4 {
+  padding: 80px 100px;
+}
+
+.section4 .tx h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.imagges {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.imagges img {
+  width: 230px;
+  border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 100px;
+  background-color: #F9F9FB;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-img img {
+  width: 40px;
+}
+
+.more-text p {
+  font-size: 14px;
+  color: #5E6282;
+  margin-bottom: 10px;
+}
+
+footer h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+
+footer li {
+  margin-bottom: 8px;
+  color: #5E6282;
+  font-size: 14px;
+}
+
+footer img:last-child {
+  margin-top: 400px;
+  width: 100%;
+  max-width: 200px;
+}
